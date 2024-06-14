@@ -1,4 +1,3 @@
-# ISEK-YA-SHAM-
 <!DOCTYPE html>
 <html lang="ar">
 <head>
@@ -7,9 +6,10 @@
     <title>مطعمي الاحترافي</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <a class="navbar-brand" href="#">مطعمي</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -24,7 +24,7 @@
         </div>
     </nav>
 
-    <header id="home" class="jumbotron jumbotron-fluid text-center">
+    <header id="home" class="jumbotron jumbotron-fluid text-center text-white d-flex align-items-center">
         <div class="container">
             <h1 class="display-4">مرحبا بكم في مطعمنا</h1>
             <p class="lead">استمتعوا بأشهى الأطباق وأفضل الخدمات.</p>
